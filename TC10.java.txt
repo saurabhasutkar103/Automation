@@ -1,0 +1,5 @@
+public static void main(String[] args) throws InterruptedException, EncryptedDocumentException, IOException {
+	System.setProperty("webdriver.chrome.driver", Configurations.driverPath);
+	WebDriver driver = new ChromeDriver();	
+	driver.get(Configurations.appURL);
+	driver.manage().window().maximize();
