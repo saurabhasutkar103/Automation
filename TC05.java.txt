@@ -1,0 +1,5 @@
+Page factory is class which is having static method like initElemet() method.
+	To initialize data member we need to call initElemet method within the class inside the constructor.
+	Ex: PageFactory.initElements(dri, this);
+	InitElement method will initialize data member by identifying each component present on web page by using @FindBy annotation which takes input as locator type.
+	Ex: @FindBy(xpath="x-path expression") private WebElement dataMember;
